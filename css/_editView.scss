@@ -19,7 +19,6 @@ button.save-edit {
  cursor: pointer;
 }
 #to-review {
-    background: #E0E0E0;
     margin: 10px 0;
     text-align:center;
     cursor:pointer;
@@ -28,23 +27,44 @@ button.save-edit {
   -webkit-appearance: none;
   border: none;
   background: none;
-  padding:10px;
+  padding:20px;
   width:100%;
   font-size:16px;
   cursor:pointer;
-  color:rgba(0,0,0,0.3);
+  color:#00A1FF;
   transition:.1s all;
   &:focus{
     outline:none;
   }
   &:hover{
     background:#00A1FF;
+    color:white;
   }
+}
+#new-review .cancel {
+    -webkit-appearance: none;
+    border: none;
+    background: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px;
+    color: #737373;
+    font-size: 14px;
+    transition:.2s all;
+    cursor:pointer;
+    &:focus{
+      outline:none;
+    }
+    &:hover{
+      color:red;
+    }
 }
 #new-review {
   background: #E0E0E0;
   margin: 10px 0;
   padding: 5% 3%;
+  position:relative;
   h1 {
   text-align: center;
   margin-bottom: 3%;

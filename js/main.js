@@ -26,6 +26,7 @@ var page = {
     $('#movies').on('click', '.save-edit', page.saveEdit);
     $('.container').on('click', '.toCreate', page.toReview);
     $('#new-review').on('click', '.submit-review', page.submitNewReview);
+    $('#new-review').on('click', '.cancel', page.cancelNewReview);
   },
 
   deleteMovie: function(event){
@@ -75,6 +76,11 @@ var page = {
     // $('#new-review').html(markup);
     $('#to-review').removeClass('current');
     $('#new-review').addClass('current');
+  },
+  cancelNewReview: function(event){
+    event.preventDefault();
+    $('#new-review').removeClass('current');
+    $('#to-review').addClass('current');
   },
 
   submitNewReview: function(event){

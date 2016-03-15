@@ -41,7 +41,6 @@ button.save-edit {
   cursor: pointer; }
 
 #to-review {
-  background: #E0E0E0;
   margin: 10px 0;
   text-align: center;
   cursor: pointer; }
@@ -50,21 +49,40 @@ button.save-edit {
   -webkit-appearance: none;
   border: none;
   background: none;
-  padding: 10px;
+  padding: 20px;
   width: 100%;
   font-size: 16px;
   cursor: pointer;
-  color: rgba(0, 0, 0, 0.3);
+  color: #00A1FF;
   transition: .1s all; }
   #to-review button:focus {
     outline: none; }
   #to-review button:hover {
-    background: #00A1FF; }
+    background: #00A1FF;
+    color: white; }
+
+#new-review .cancel {
+  -webkit-appearance: none;
+  border: none;
+  background: none;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 5px;
+  color: #737373;
+  font-size: 14px;
+  transition: .2s all;
+  cursor: pointer; }
+  #new-review .cancel:focus {
+    outline: none; }
+  #new-review .cancel:hover {
+    color: red; }
 
 #new-review {
   background: #E0E0E0;
   margin: 10px 0;
-  padding: 5% 3%; }
+  padding: 5% 3%;
+  position: relative; }
   #new-review h1 {
     text-align: center;
     margin-bottom: 3%; }
@@ -108,9 +126,9 @@ textarea {
   text-align: center;
   padding: 15% 0;
   background-image: url("http://dl9fvu4r30qs1.cloudfront.net/12/763da01d3411e2938622000a1d0930/file/5-things-about-reservoir-dogs-facts-trivia-20th-anniversary.jpg");
-  background-color: #0085D2;
+  background-color: #A2B6C1;
   background-blend-mode: lighten;
-  color: black;
+  color: #383838;
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 36px; }
@@ -142,7 +160,7 @@ article {
   width: 50%;
   display: inline-block;
   vertical-align: top;
-  margin-left: 10px; }
+  margin-left: 30px; }
   .review-desc h3 {
     font-size: 24px; }
   .review-desc p {
