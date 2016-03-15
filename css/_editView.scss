@@ -1,0 +1,81 @@
+form#edit-review {
+    margin: 5%;
+    font-size:16px;
+}
+form#edit-review input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size:16px;
+}
+button.save-edit {
+ -webkit-appearance:none;
+ background: #CBEFCB;
+ border:none;
+ font-size:16px;
+ color:green;
+ padding: 10px 20px;
+ margin: 5px 0;
+ cursor: pointer;
+}
+#to-review {
+    background: #E0E0E0;
+    margin: 10px 0;
+    text-align:center;
+    cursor:pointer;
+}
+#to-review button {
+  -webkit-appearance: none;
+  border: none;
+  background: none;
+  padding:10px;
+  width:100%;
+  font-size:16px;
+  cursor:pointer;
+  color:rgba(0,0,0,0.3);
+  transition:.1s all;
+  &:focus{
+    outline:none;
+  }
+  &:hover{
+    background:#00A1FF;
+  }
+}
+#new-review {
+  background: #E0E0E0;
+  margin: 10px 0;
+  padding: 5% 3%;
+  h1 {
+  text-align: center;
+  margin-bottom: 3%;
+  }
+}
+#add-review-new input {
+  width:49.6%;
+  padding: 10px;
+  margin: 2px 0;
+  border: none;
+  color: #00A1FF;
+  transition:.2s all;
+  font-size:16px;
+  &:focus{
+    outline:none;
+    border-left: 2px solid #00A1FF;
+  }
+}
+button.submit-review {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  -webkit-appearance: none;
+  border: none;
+  background: #00A1FF;
+  margin-top: 10px;
+  color: white;
+  font-size: 16px;
+  cursor:pointer;
+  transition:.2s all;
+  &:hover{
+      background:#0085D2;
+  }
+}

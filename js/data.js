@@ -2,8 +2,22 @@ var movies = [
   {
     title: "Jurassic Park",
     director: "Steven Spielberg",
-    poster: "https://upload.wikimedia.org/wikipedia/en/9/96/Jurassic_Park_logo.jpg",
-    desc: "In Steven Spielberg's massive blockbuster, paleontologists Alan Grant (Sam Neill) and Ellie Sattler (Laura Dern) and mathematician Ian Malcolm (Jeff Goldblum) are among a select group chosen to tour an island theme park populated by dinosaurs created from prehistoric DNA. While the park's mastermind, billionaire John Hammond (Richard Attenborough), assures everyone that the facility is safe, they find out otherwise when various ferocious predators break free and go on the hunt.",
+    poster: "https://img.buzzfeed.com/buzzfeed-static/static/2014-08/12/12/enhanced/webdr10/enhanced-14020-1407861668-13.jpg",
+    desc: "1993",
+    stars: "5"
+  },
+  {
+    title: "Big Trouble in Little China",
+    director: "John Carpenter",
+    poster: "http://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/t/54d52ebfe4b04764f8197cd7/1423257286670/11-fun-facts-about-big-trouble-in-little-china",
+    desc: "1986",
+    stars: "5"
+  },
+  {
+    title: "The Big Lebowski",
+    director: "Coen Brothers",
+    poster: "http://ecx.images-amazon.com/images/I/51YVZZH6DNL.jpg",
+    desc: "1998",
     stars: "5"
   }
 ];

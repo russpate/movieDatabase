@@ -1,0 +1,22 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background-color:#efefef;
+  color:#000;
+  font-family: 'Raleway', sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+section{
+  display:none;
+  width:100%;
+}
+.current{
+  display:inline-block;
+  width:100%;
+}

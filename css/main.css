@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #efefef;
+  color: #000;
+  font-family: 'Raleway', sans-serif; }
+
+.container {
+  width: 80%;
+  margin: 0 auto; }
+
+section {
+  display: none;
+  width: 100%; }
+
+.current {
+  display: inline-block;
+  width: 100%; }
+
+form#edit-review {
+  margin: 5%;
+  font-size: 16px; }
+
+form#edit-review input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px; }
+
+button.save-edit {
+  -webkit-appearance: none;
+  background: #CBEFCB;
+  border: none;
+  font-size: 16px;
+  color: green;
+  padding: 10px 20px;
+  margin: 5px 0;
+  cursor: pointer; }
+
+#to-review {
+  background: #E0E0E0;
+  margin: 10px 0;
+  text-align: center;
+  cursor: pointer; }
+
+#to-review button {
+  -webkit-appearance: none;
+  border: none;
+  background: none;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.3);
+  transition: .1s all; }
+  #to-review button:focus {
+    outline: none; }
+  #to-review button:hover {
+    background: #00A1FF; }
+
+#new-review {
+  background: #E0E0E0;
+  margin: 10px 0;
+  padding: 5% 3%; }
+  #new-review h1 {
+    text-align: center;
+    margin-bottom: 3%; }
+
+#add-review-new input {
+  width: 49.6%;
+  padding: 10px;
+  margin: 2px 0;
+  border: none;
+  color: #00A1FF;
+  transition: .2s all;
+  font-size: 16px; }
+  #add-review-new input:focus {
+    outline: none;
+    border-left: 2px solid #00A1FF; }
+
+button.submit-review {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  -webkit-appearance: none;
+  border: none;
+  background: #00A1FF;
+  margin-top: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .2s all; }
+  button.submit-review:hover {
+    background: #0085D2; }
+
+input[type="text"] {
+  width: 49%;
+  display: inline-block; }
+
+textarea {
+  width: 100%;
+  display: block; }
+
+.intro {
+  text-align: center;
+  padding: 15% 0;
+  background-image: url("http://dl9fvu4r30qs1.cloudfront.net/12/763da01d3411e2938622000a1d0930/file/5-things-about-reservoir-dogs-facts-trivia-20th-anniversary.jpg");
+  background-color: #0085D2;
+  background-blend-mode: lighten;
+  color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 36px; }
+
+#movies {
+  background: white; }
+
+article {
+  width: 100%;
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 1%;
+  padding: 10px;
+  position: relative; }
+  article:last-child {
+    border-bottom: 3px solid darkgray;
+    margin-bottom: 0; }
+
+.review-img {
+  width: 15%;
+  display: inline-block;
+  overflow: hidden; }
+  .review-img img {
+    width: 100%; }
+
+.review-desc {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px; }
+  .review-desc h3 {
+    font-size: 24px; }
+  .review-desc p {
+    color: #A0A0A0; }
+
+.review-options {
+  text-align: right;
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 10px; }
+  .review-options button {
+    -webkit-appearance: none;
+    background: none;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #efefef;
+    transition: .2s all; }
+  .review-options .delete {
+    color: red; }
+    .review-options .delete:hover {
+      color: white;
+      background: red;
+      border: 1px solid red; }
+  .review-options .edit {
+    color: #A5A4A4; }
+    .review-options .edit:hover {
+      color: white;
+      background: orange;
+      border: 1px solid orange; }

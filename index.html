@@ -2,16 +2,52 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Movie Database</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="bower_components/font-awesome-animation/dist/font-awesome-animation.css">
+    <link rel="stylesheet" href="css/main.css" media="screen" charset="utf-8">
   </head>
   <body>
-  <script src="bower_components/backbone/backbone.js" charset="utf-8"></script>
+
+    <div class="intro">
+      <h1>MustWatch<br />Movies</h1>
+      <br />
+      <br />
+      <i class="fa fa-angle-double-down faa-float animated"></i>
+
+
+    </div>
+
+    <div class="container">
+
+      <section id="to-review" class="current">
+        <button class="toCreate "><i class="fa fa-plus-square"></i> add movie</button>
+      </section>
+
+      <section id="new-review">
+        <form id="add-review-new">
+          <h1>Fill out the form below and click submit to post a new must watch movie.</h1>
+          <input type="text" placeholder="poster url" name="newPoster">
+          <input type="text" placeholder="movie title" name="newTitle">
+          <input type="text" placeholder="director" name="newDirector">
+          <input type="text" placeholder="write a review" name="newDesc">
+          <button class="submit-review">submit movie</button>
+        </form>
+      </section>
+
+      <div id="movies" class="current">
+      </div>
+
+    </div>
+
   <script src="bower_components/underscore/underscore.js" charset="utf-8"></script>
+  <script src="bower_components/backbone/backbone.js" charset="utf-8"></script>
   <script src="bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
   <script src="js/templates.js" charset="utf-8"></script>
   <script src="js/data.js" charset="utf-8"></script>
-  <script src="js/collections.js" charset="utf-8"></script>
   <script src="js/models.js" charset="utf-8"></script>
+  <script src="js/collections.js" charset="utf-8"></script>
   <script src="js/main.js" charset="utf-8"></script>
   </body>
 </html>
